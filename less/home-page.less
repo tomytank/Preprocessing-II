@@ -1,5 +1,20 @@
 .home {
+  // width: 100%;
+  // border-bottom: 2px dashed @navigation-border;
+    
 
+  .intro-section{
+    .text-content {
+      width: 100%;
+      
+    
+      .padRL(1%);
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+      
+      border-bottom: 2px dashed @navigation-border;
+    }
+  }
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -10,7 +25,8 @@
     
     .text-content {
       width: 48%;
-      padding-right: 1%;
+      // padding-right: 1%;
+      .padRL(1%);
     }
 
     .img-content {
@@ -28,13 +44,15 @@
     border-bottom: 2px dashed @navigation-border;
 
     .text-content {
-      padding-left: 1%;
-      padding-right: 0;
+      .padRL(1%, 0);
+      // padding-left: 1%;
+      // padding-right: 0;
     }
 
     .img-content {
-      padding-right: 1%;
-      padding-left: 0;
+      .padRL(1%, 0);
+      // padding-right: 1%;
+      // padding-left: 0;
     }
   }
 
